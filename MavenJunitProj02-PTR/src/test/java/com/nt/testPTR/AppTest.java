@@ -37,8 +37,8 @@ public class AppTest
 	@Test
 	public void testcalPTRWithBigValues()
 	{
-		double expected=(2400000.0);
-		double actual=bs.calculateSimpleIntrest(10000000.0, 2.0, 12.0);
+		double expected=(1200000.0);
+		double actual=bs.calculateSimpleIntrest(10000000.0, 1.0, 12.0);
 		assertEquals(expected, actual,1.0);
 	}
 	@Test
