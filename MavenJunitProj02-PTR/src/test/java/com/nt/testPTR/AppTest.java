@@ -30,8 +30,8 @@ public class AppTest
 	@Test
 	public void testcalPTRWithSmallValues()
 	{
-		double expected=(24000.0);
-		double actual=bs.calculateSimpleIntrest(100000.0, 2.0, 12.0);
+		double expected=(12000.0);
+		double actual=bs.calculateSimpleIntrest(100000.0, 1.0, 12.0);
 		assertEquals(expected, actual,0.5);
 	}
 	@Test
